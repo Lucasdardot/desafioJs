@@ -42,7 +42,7 @@ function at5(){
     const num1 =parseInt(document.getElementById("num1").value) 
     const num2 =parseInt(document.getElementById("num2").value) 
     const soma = num1 + num2
-    document.getElementById("result").innerHTML = soma
+    document.getElementById("result").innerHTML = "O resultado é: " + soma
 }
 
 
@@ -53,7 +53,7 @@ function at6(){
     const n1 =parseInt(document.getElementById("n1").value)
     const n2 =parseInt(document.getElementById("n2").value) 
     const result = n1 * n2
-    document.getElementById("resultado6").innerHTML = result
+    document.getElementById("resultado6").innerHTML = "O resultado é: " + result
 }
 
 

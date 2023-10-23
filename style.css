@@ -1,20 +1,24 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
     align-items: center;
 }
+    
 
 .atividades{
     margin-top: 50px;
-    width: 90%;
+    width: 100%;
+    max-width: 50%;
     display: flex;
     justify-content: space-around;
+    text-align: center;
     flex-wrap: wrap;
 }
 
 .card{
-    border: 1px solid pink;
+    border: 2px solid black;
+    border-radius: 20px;
     margin-bottom: 20px;
     width: 200px;
     height: 200px;
@@ -23,9 +27,32 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
+    margin: 3px;
 }
 .titulo{
     position: absolute;
     top: 0;
     margin-top: 10px;
+}
+
+.font{
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.bt{
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.spescolha{
+margin-bottom: 20px;
+}
+
+.at5bt{
+    margin-top: 20px;
+}
+
+.at7bt{
+    margin-top: 20px;
 }

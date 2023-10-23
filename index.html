@@ -5,78 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Montserrat:ital@1&display=swap" rel="stylesheet">
     <title>Primeiro Desafio Javascript</title>
 </head>
 
 <body>
     <!--Pode estilizar o site se quiser-->
-    <h1>Primeiro Desafio Javascript</h1>
+    <h1 class="font">Primeiro Desafio Javascript</h1>
 
 
     <div class="atividades">
 
         <!--Atividade 1-->
         <div class="card">
-            <span class="titulo">Atividade 1</span>
-            <span id="resultado1"></span>
-            <button onclick="contagemClicks()">Contagem de Cliques</button>
+            <span class="titulo font" >Atividade 1</span>
+            <span id="resultado1" class="font"></span>
+            <button onclick="contagemClicks()" class="bt">Contagem de Cliques</button>
         </div>
 
         <!--Atividade 2-->
         <div class="card">
-            <span class="titulo">Atividade 2</span>
-            <span id="numaleatorio"></span>
-            <button onclick="at2()">Número aleatório</button>
+            <span class="titulo font">Atividade 2</span>
+            <span id="numaleatorio" class="font"></span>
+            <button onclick="at2()" class="bt">Número aleatório</button>
         </div>
 
         <!--Atividade 3-->
         <div class="card">
-            <span class="titulo">Atividade 3</span>
-            <span id="at3"></span>
-            <button onclick="at3()">Frase</button>
+            <span class="titulo font">Atividade 3</span>
+            <span id="at3" class="font"></span>
+            <button onclick="at3()" class="bt">Frase</button>
         </div>
 
         <!--Atividade 4-->
         <div class="card">
-            <span class="titulo">Atividade 4</span>
-            <span id="cor">Altere a cor desse texto</span>
-            <button onclick="at4()">Alterar</button>
+            <span class="titulo font">Atividade 4</span>
+            <span id="cor" class="font">Altere a cor desse texto</span>
+            <button onclick="at4()" class="bt">Alterar</button>
         </div>
 
         <!--Atividade 5-->
         <div class="card">
-            <span class="titulo">Atividade 5</span>
+            <span class="titulo font">Atividade 5</span>
             <input id="num1" type="number">
             <input id="num2" type="number">
-            <span id="result"></span>
-            <button onclick="at5()">Somar</button>
+            <span id="result" class="font"></span>
+            <button onclick="at5()" class="bt font at5bt">Somar</button>
         </div>
 
         <!--Atividade 6-->
         <div class="card">
-            <span class="titulo">Atividade 6</span>
+            <span class="titulo font">Atividade 6</span>
             <input id="n1" type="number">
             <input id="n2" type="number">
-            <span id="resultado6"></span>
-            <button onclick="at6()">Multiplicar</button>
+            <span id="resultado6" class="font"></span>
+            <button onclick="at6()" class="bt">Multiplicar</button>
         </div>
 
         <!--Atividade 7-->
         <div class="card">
-            <span class="titulo">Atividade 7</span>
+            <span class="titulo font">Atividade 7</span>
             <input id="numero1" type="number">
             <input id="numero2" type="number">
-            <span id="maior"></span>
-            <button onclick="at7()">Maior/menor</button>
+            <span id="maior" class="font"></span>
+            <button onclick="at7()" class="bt at7bt">Maior/menor</button>
         </div>
 
         <!--Atividade 8-->
         <div class="card">
             <span class="titulo">Atividade 8</span>
-            <span id="escolha"></span>
-            <button onclick="at8('Maça')">Maça</button>
-            <button onclick="at8('Melancia')">Melancia</button>
-            <button onclick="at8('Uva')">Uva</button>
+            <span id="escolha" class="spescolha font"></span>
+            <button onclick="at8('Maça')" class="bt">Maça</button>
+            <button onclick="at8('Melancia')" class="bt">Melancia</button>
+            <button onclick="at8('Uva')" class="bt">Uva</button>
         </div>
 
 
